@@ -5,7 +5,7 @@ import { EmailEhUnicoValidator } from "src/usuario/validacao/email-eh-unico.vali
 
 @Module({
     controllers:[ProdutoController],
-    providers:[ProdutoRepositoy, EmailEhUnicoValidator]
+    providers:[ProdutoRepositoy]
 })
 export class ProdutoModule {
     
